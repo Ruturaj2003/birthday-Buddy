@@ -15,6 +15,7 @@ const List = () => {
   };
   return (
     <>
+      <h3>Today There Are {people.length} Birthdays</h3>
       <ul>{people.map(createList)}</ul>
       <button onClick={clearAll}>Clear All</button>
     </>
